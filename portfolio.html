@@ -1,0 +1,235 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Maxims</title>
+    <link rel="stylesheet" href="../Project/css/styles.css" />
+    <script
+      src="https://kit.fontawesome.com/328ae64f43.js"
+      crossorigin="anonymous"
+    ></script>
+  </head>
+  <body>
+    <!-- We add the checkbox -->
+    <input type="checkbox" id="hamburger-input" class="burger-shower" />
+
+    <!-- 
+  We use a `label` element with the `for` attribute 
+  with the same value as  our label `id` attribute 
+-->
+    <label
+      id="hamburger-menu"
+      for="hamburger-input"
+      style="z-index: 99; border-radius: 5px"
+    >
+      <nav id="sidebar-menu" style="transition: 0.3s">
+        <h3>Menu</h3>
+        <ul>
+          <li><a href="#hero">Main</a></li>
+          <li><a href="#about">About</a></li>
+          <li><a href="#serv">Services</a></li>
+          <li><a href="#hire">Hire Me</a></li>
+        </ul>
+      </nav>
+    </label>
+
+    <nav id="main-menu">
+      <ul>
+        <li><a href="#hero">Main</a></li>
+        <li><a href="#about">About</a></li>
+        <li><a href="#serv">Services</a></li>
+        <li><a href="#hire">Hire Me</a></li>
+      </ul>
+    </nav>
+
+    <!-- 
+  Adding an overlay to show a dark 
+  background when the menu appears
+-->
+    <div class="overlay"></div>
+    <div id="hero" class="hero container">
+      <div
+        class="hero-info"
+        style="margin-bottom: 10%; margin-right: 70%; width: 15vw"
+      >
+        <h2 class="hero-info-heading style" style="font-size:xx-large;">
+          Hire Me
+          <br />
+          To bring your ideas to life
+        </h2>
+        <p class="hero-info-subheading" style="font-size:x-large ;">I am <br> a web designer</p>
+        <a href="#hero" type="button" class="hero-info-button" target="_blank"
+          >Portfolio</a
+        >
+      </div>
+      <div id="hero-img">
+        <img
+          src="../Project/images/robot-1.jpg"
+          alt="unlucky"
+          style="width: 55.5vw; height:48vh; margin-left: 30%"
+        />
+      </div>
+    </div>
+    <div id="about" class="about-container">
+      <div class="about-info" style="text-align: center">
+        <h1
+          class="about-info-heading"
+          style="padding: 2rem; margin-right: 3.75%"
+        >
+          About
+        </h1>
+        <p class="about-info-desk">
+          Lorem, ipsum dolor sit amet consectetur adipisicing elit. Sit eum vero
+          maxime reprehenderit. Rerum inventore veritatis dolore enim tempore ex
+          iure numquam qui, fuga eum corrupti. Id ratione pariatur aspernatur?
+          Culpa, quam! Beatae eaque necessitatibus obcaecati ut! Cumque
+          accusantium, odit veritatis quod illum placeat voluptatem non autem
+          deserunt dolorem labore, cupiditate eaque optio exercitationem maxime
+          consectetur. Unde beatae corporis deleniti!
+        </p>
+        <a
+          href="#hero"
+          type="button"
+          class="about-info-button"
+          style="margin-left: 38%; padding-top: 4vh"
+          >Resume
+        </a>
+      </div>
+      <div class="about-img">
+        <div class="about-img-wrapper">
+          <img
+            src="../Project/images/touch.jpg"
+            alt="Unlucky"
+            style="width: 60%; margin-left: 20%; border-radius: 3%"
+          />
+        </div>
+      </div>
+    </div>
+    <div id="serv">
+      <div>
+        <h1 style="text-align: center">Services</h1>
+      </div>
+      <div>
+        <p style="text-align: justify">
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Nesciunt
+          officiis commodi laudantium cum fugit enim praesentium alias corrupti.
+          Repudiandae velit vel quae numquam possimus fugit molestiae. Incidunt
+          velit obcaecati placeat. Lorem ipsum dolor sit amet consectetur
+          adipisicing elit. Iste inventore distinctio esse tenetur asperiores
+          aliquam rem ipsam nam error optio, velit, accusamus nostrum obcaecati
+          vero impedit odio quaerat excepturi ipsum. Lorem ipsum dolor, sit amet
+          consectetur adipisicing elit. Recusandae tempore quae veniam tempora?
+          Ratione soluta rem adipisci nobis, culpa pariatur officiis dicta
+          tenetur consequuntur rerum officia! Illo expedita saepe repellendus!
+        </p>
+      </div>
+      <div id="flips">
+        <div class="flip-card">
+          <div class="flip-card-inner">
+            <div class="flip-card-front">
+              <img
+                src="../Project/images/WebD.jpg"
+                alt="Avatar"
+                style="width: 33vw; height: 51vh"
+              />
+            </div>
+            <div class="flip-card-back">
+              <h1>Web desgin</h1>
+              <p>
+                Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ad
+                odio ex asperiores eaque molestias cum libero modi commodi enim
+                porro quam quae error quis ea, sint minus voluptatum? Culpa,
+                voluptatem! Lorem ipsum dolor sit amet consectetur adipisicing
+                elit. Quam perspiciatis sunt vel, sequi blanditiis fugiat
+                voluptatum deleniti molestiae amet molestias nihil odio dolor
+                quod nemo et harum dolorum quisquam consequatur.
+              </p>
+            </div>
+          </div>
+        </div>
+
+        <div class="flip-card">
+          <div class="flip-card-inner">
+            <div class="flip-card-front">
+              <img
+                src="../Project/images/FEdev.png"
+                alt="Avatar"
+                style="width: 33vw; height: 51vh"
+              />
+            </div>
+            <div class="flip-card-back">
+              <h1>Font End dev</h1>
+              <p>
+                Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ad
+                odio ex asperiores eaque molestias cum libero modi commodi enim
+                porro quam quae error quis ea, sint minus voluptatum? Culpa,
+                voluptatem! Lorem ipsum dolor sit amet consectetur adipisicing
+                elit. Debitis, rerum reiciendis necessitatibus, quidem nulla
+                corrupti quam perspiciatis impedit tenetur recusandae laborum
+                dignissimos quia harum expedita animi ut tempore dolorem
+                excepturi!
+              </p>
+            </div>
+          </div>
+        </div>
+
+        <div class="flip-card">
+          <div class="flip-card-inner">
+            <div class="flip-card-front">
+              <img
+                src="../Project/images/Brand.jpg"
+                alt="Avatar"
+                style="width: 33vw; height: 51vh"
+              />
+            </div>
+            <div class="flip-card-back">
+              <h1>Branding</h1>
+              <p>
+                Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ad
+                odio ex asperiores eaque molestias cum libero modi commodi enim
+                porro quam quae error quis ea, sint minus voluptatum? Culpa,
+                voluptatem!
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div id="hire">
+      <h1>Hire me to build your dream website</h1>
+      <div class="btn-hire" style="margin-left: 39%; margin-top: 5%">
+        <a href="#hire" style="text-decoration: none; color: darkblue"
+          >HIRE ME !!</a
+        >
+      </div>
+    </div>
+    <div id="footer">
+      <h1>Contact ME</h1>
+      <p>
+        Email: jhon@jhonson.com
+        <br />
+        mobile:+97250000000
+      </p>
+      <h3>Follow Me</h3>
+      <div style="text-decoration: none">
+        <a href="#hero">
+          <i class="fa-brands fa-facebook-f"> </i>
+        </a>
+        <a href="#hero">
+          <i class="fa-brands fa-instagram"> </i>
+        </a>
+        <a href="#hero">
+          <i class="fa-brands fa-twitter"> </i>
+        </a>
+        <a href="#hero">
+          <i class="fa-brands fa-github"></i>
+        </a>
+        <a href="#hero">
+          <i class="fa-brands fa-linkedin-in"></i>
+        </a>
+      </div>
+    </div>
+  </body>
+</html>
