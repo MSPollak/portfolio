@@ -49,13 +49,13 @@ body {
 }
 
 #main-menu a {
-  color: #b9faf8;
+  color: gold;
   font-size: 1.5rem;
   text-decoration: none;
 }
 
 #main-menu a:hover {
-  text-decoration: underline;
+  text-decoration: none;
 }
 
 #hamburger-input {
@@ -102,8 +102,9 @@ body {
 }
 
 #hamburger-menu h3 {
-  color: #b9faf8;
+  color: gold;
   font-size: 2.2rem;
+  text-decoration: none;
 }
 
 #hamburger-menu ul {
@@ -116,13 +117,9 @@ body {
 }
 
 #hamburger-menu a {
-  color: #b9faf8;
+  color: gold;
   font-size: 1.3rem;
   text-decoration: none;
-}
-
-#hamburger-menu a:hover {
-  text-decoration: underline;
 }
 
 #hamburger-input:checked + #hamburger-menu #sidebar-menu {
@@ -171,14 +168,11 @@ body {
 }
 
 #main-menu a {
-  color: #b9faf8;
+  color: gold;
   font-size: 1.5rem;
   text-decoration: none;
 }
 
-#main-menu a:hover {
-  text-decoration: underline;
-}
 
 @media screen and (max-width: 770px) {
   #main-menu {
@@ -196,20 +190,17 @@ body {
 }
 
 #hero {
-  background: #03001e; /* fallback for old browsers */
+    color:gold;
+  background: #ad5389; /* fallback for old browsers */
   background: -webkit-linear-gradient(
     to right,
-    #fdeff9,
-    #ec38bc,
-    #7303c0,
-    #03001e
+    #3d0e61,
+    #ad5389
   ); /* Chrome 10-25, Safari 5.1-6 */
   background: linear-gradient(
     to right,
-    #fdeff9,
-    #ec38bc,
-    #7303c0,
-    #03001e
+    #3d0e61,
+    #ad5389
   ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
 }
 
@@ -226,8 +217,8 @@ body {
 
 .hero .hero-info .hero-info-button {
   position: absolute;
-  margin-top: 8vh;
-  padding: 3vw;
+  margin-top: 5vh;
+  padding: 2.5vw;
   display: inline-block;
   font-size: 1.6rem;
   text-transform: uppercase;
@@ -295,11 +286,12 @@ body {
   justify-content: center;
 }
 
-.about {
-  width: 100%;
-  min-height: 50vh;
-  padding: 10rem 5rem;
-  flex-direction: column;
+#about {
+  color: gold;
+  background: #03001e;  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to left, #68024d, #a90a7f, #3d0e61, #03001e);  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to left, #68024d, #ec38bc, #3d0e61, #03001e); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */  
+
 }
 
 @media only screen and (min-width: 768px) {
@@ -326,7 +318,7 @@ body {
   text-align: center;
   padding: 1rem 0 0 0;
   font: 1.2em/12px Verdana, Arial, Helvetica, sans-serif;
-  color: #fff;
+  color: gold;
   text-decoration: none;
   -webkit-border-radius: 5px;
   -khtml-border-radius: 5px;
@@ -334,21 +326,6 @@ body {
   border-radius: 5px;
 }
 
-#about {
-  background: #355c7d; /* fallback for old browsers */
-  background: -webkit-linear-gradient(
-    to right,
-    #c06c84,
-    #6c5b7b,
-    #355c7d
-  ); /* Chrome 10-25, Safari 5.1-6 */
-  background: linear-gradient(
-    to right,
-    #c06c84,
-    #6c5b7b,
-    #355c7d
-  ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
-}
 
 .about-info-button:hover {
   background: #08d134;
@@ -441,35 +418,33 @@ body {
   color: aliceblue;
 }
 
-.btn-hire {
-    display: block;
-    background: #62869b;
-    width: 20vw;
-    height: 10vh;
-    text-align: center;
-    padding: 1rem 0 0 0;
-    font: 1.2em/12px Verdana, Arial, Helvetica, sans-serif;
-    color: #fff;
-    text-decoration: none;
-    -webkit-border-radius: 5px;
-    -khtml-border-radius: 5px;
-    -moz-border-radius: 5px;
-    border-radius: 5px;
-  
+.hire-btn {
+  display: block;
+  background: darkblue;
+  width: 20vw;
+  height: 10vh;
+  text-align: center;
+  padding: 4vh 0 0 0;
+  font: 1.2em/12px crusive, Arial, Helvetica, sans-serif;
+  color: gold;
+  text-decoration: none;
+  -webkit-border-radius: 25px;
+  -khtml-border-radius: 25px;
+  -moz-border-radius: 25px;
+  border-radius: 25px;
+  text-decoration: none;
 }
 
 #serv {
   background: #2980b9; /* fallback for old browsers */
   background: -webkit-linear-gradient(
     to right,
-    #ffffff,
-    #6dd5fa,
+    #3d0e61,
     #2980b9
   ); /* Chrome 10-25, Safari 5.1-6 */
   background: linear-gradient(
     to right,
-    #ffffff,
-    #6dd5fa,
+    #3d0e61,
     #2980b9
   ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
 }
