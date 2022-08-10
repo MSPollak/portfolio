@@ -173,7 +173,6 @@ body {
   text-decoration: none;
 }
 
-
 @media screen and (max-width: 770px) {
   #main-menu {
     display: none;
@@ -190,7 +189,7 @@ body {
 }
 
 #hero {
-    color:gold;
+  color: gold;
   background: #ad5389; /* fallback for old browsers */
   background: -webkit-linear-gradient(
     to right,
@@ -288,10 +287,21 @@ body {
 
 #about {
   color: gold;
-  background: #03001e;  /* fallback for old browsers */
-  background: -webkit-linear-gradient(to left, #68024d, #a90a7f, #3d0e61, #03001e);  /* Chrome 10-25, Safari 5.1-6 */
-  background: linear-gradient(to left, #68024d, #ec38bc, #3d0e61, #03001e); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */  
-
+  background: #03001e; /* fallback for old browsers */
+  background: -webkit-linear-gradient(
+    to left,
+    #68024d,
+    #a90a7f,
+    #3d0e61,
+    #03001e
+  ); /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(
+    to left,
+    #68024d,
+    #ec38bc,
+    #3d0e61,
+    #03001e
+  ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
 }
 
 @media only screen and (min-width: 768px) {
@@ -325,7 +335,6 @@ body {
   -moz-border-radius: 5px;
   border-radius: 5px;
 }
-
 
 .about-info-button:hover {
   background: #08d134;
@@ -388,31 +397,39 @@ body {
   text-align: center;
   padding: 3rem;
   color: whitesmoke;
-  background: #544a7d; /* fallback for old browsers */
+  background: #03001e; /* fallback for old browsers */
   background: -webkit-linear-gradient(
-    to right,
-    #ffd452,
-    #544a7d
+    to left,
+    #68024d,
+    #a90a7f,
+    #3d0e61,
+    #03001e
   ); /* Chrome 10-25, Safari 5.1-6 */
   background: linear-gradient(
-    to right,
-    #ffd452,
-    #544a7d
+    to left,
+    #68024d,
+    #ec38bc,
+    #3d0e61,
+    #03001e
   ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
 }
 
 #footer {
   text-align: center;
-  background: #16a085; /* fallback for old browsers */
+  background: #03001e; /* fallback for old browsers */
   background: -webkit-linear-gradient(
-    to right,
-    #f4d03f,
-    #16a085
+    to left,
+    #68024d,
+    #a90a7f,
+    #3d0e61,
+    #03001e
   ); /* Chrome 10-25, Safari 5.1-6 */
   background: linear-gradient(
-    to right,
-    #f4d03f,
-    #16a085
+    to left,
+    #68024d,
+    #ec38bc,
+    #3d0e61,
+    #03001e
   ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
   padding: 3rem;
   color: aliceblue;
@@ -436,15 +453,19 @@ body {
 }
 
 #serv {
-  background: #2980b9; /* fallback for old browsers */
+  background: #03001e; /* fallback for old browsers */
   background: -webkit-linear-gradient(
-    to right,
+    to left,
+    #68024d,
+    #a90a7f,
     #3d0e61,
-    #2980b9
+    #03001e
   ); /* Chrome 10-25, Safari 5.1-6 */
   background: linear-gradient(
-    to right,
+    to left,
+    #68024d,
+    #ec38bc,
     #3d0e61,
-    #2980b9
+    #03001e
   ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
 }
