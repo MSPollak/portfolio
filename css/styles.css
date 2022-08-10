@@ -190,16 +190,20 @@ body {
 
 #hero {
   color: gold;
-  background: #ad5389; /* fallback for old browsers */
+  background: #03001e; /* fallback for old browsers */
   background: -webkit-linear-gradient(
-    to right,
+    to left,
+    #68024d,
+    #a90a7f,
     #3d0e61,
-    #ad5389
+    #03001e
   ); /* Chrome 10-25, Safari 5.1-6 */
   background: linear-gradient(
-    to right,
+    to left,
+    #68024d,
+    #ec38bc,
     #3d0e61,
-    #ad5389
+    #03001e
   ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
 }
 
